@@ -1,480 +1,597 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Sky Byte | Web Design Services</title>
-  <link rel="icon" type="image/png" href="https://drive.google.com/thumbnail?id=13-734SWRH0iiNZvEfWaV1Eu7F6F0LCob&sz=s800">
-  <meta name="description" content="Professional web design services for businesses">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
-  <link rel="stylesheet" href="css/style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sky Byte - UI/UX Designer</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
-  <!-- Navigation -->
-  <header class="nav-header" id="navHeader">
-      <div class="container">
-          <nav class="nav-container">
-              <a href="index.html" class="logo">Sky Byte</a>
-              
-              <div class="nav-links">
-                  <a href="index.html" class="nav-link active">Home</a>
-                  <a href="about.html" class="nav-link">About</a>
-                  <a href="contact.html" class="nav-link">Contact</a>
-                  <a href="contact.html"><button class="btn btn-primary">Get Started</button></a>
-              </div>
-
-              <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Toggle menu">
-                  <span class="hamburger-line"></span>
-                  <span class="hamburger-line"></span>
-                  <span class="hamburger-line"></span>
-              </button>
-          </nav>
-      </div>
-
-      <div class="mobile-menu" id="mobileMenu">
-          <div class="mobile-menu-content">
-              <a href="index.html" class="mobile-nav-link">Home</a>
-              <a href="about.html" class="mobile-nav-link">About</a>
-             
-              <a href="contact.html" class="mobile-nav-link">Contact</a>
-              <a href=""><button class="btn btn-primary mobile-btn"  >Get Started</button></a>
-          </div>
-      </div>
-  </header>
-
-  <main>
-      <!-- Hero Section -->
-      <section id="hero" class="hero-section">
-          <div class="container">
-              <div class="hero-content">
-                  <h1 class="hero-title">Elevate Your Web Presence</h1>
-                  <p class="hero-subtitle">
-                      We create stunning web designs that transform your vision into reality, 
-                      helping businesses build websites users love.
-                  </p>
-                  <a href="contact.html"><button class="btn btn-primary btn-large">Get Started</button></a>
-              </div>
-              
-              <div class="hero-image">
-                  <div class="hero-image-container">
-                      <div class="hero-gradient-overlay"></div>
-                      <img src="https://drive.google.com/thumbnail?id=1oQDkhZ774027q7CdsnY6HMwbY6pKhyF4&sz=s800" alt="Sky Byte Web Design" class="hero-img">
-                      <div class="hero-glow"></div>
-                  </div>
-              </div>
-          </div>
-      </section>
-
-      <!-- Featured In Section -->
-      <section id="featured-in" class="featured-section">
-          <div class="container">
-              <h2 class="section-subtitle">Trusted By</h2>
-              
-              <!-- Desktop Sliding Logos -->
-              <div class="featured-logos-container">
-                  <div class="featured-logos-track" id="featuredLogos">
-                      <!-- First set -->
-                      <div class="featured-logo-item">Honesty</div>
-                      <div class="featured-logo-item skybyte">Security</div>
-                      <div class="featured-logo-item">SEO</div>
-                      <div class="featured-logo-item">Wired</div>
-                      <div class="featured-logo-item">best desighn</div>
-                      <div class="featured-logo-item">Product Hunt</div>
-                      
-                      <!-- Duplicate set for seamless loop -->
-                      <div class="featured-logo-item">Honesty</div>
-                      <div class="featured-logo-item skybyte">Security</div>
-                      <div class="featured-logo-item">SEO</div>
-                      <div class="featured-logo-item">Wired</div>
-                      <div class="featured-logo-item">best desighn</div>
-                      <div class="featured-logo-item">Product Hunt</div>
-                  </div>
-              </div>
-
-              <!-- Mobile Static Grid -->
-              <div class="featured-mobile">
-                  <div class="featured-logo-item">Honesty</div>
-                  <div class="featured-logo-item skybyte">Security</div>
-                  <div class="featured-logo-item">SEO</div>
-                  <div class="featured-logo-item">Wired</div>
-                  <div class="featured-logo-item">best desighn</div>
-                  <div class="featured-logo-item">Product Hunt</div>
-              </div>
-          </div>
-      </section>
-
-      <!-- Testimonials Section -->
-      <section id="testimonials" class="testimonials-section">
-          <div class="container">
-              <h2 class="section-title">What Our Clients Say</h2>
-              
-              <div class="testimonials-container">
-                  <div class="testimonials-wrapper">
-                      <div class="testimonials-track" id="testimonialsTrack">
-                          <div class="testimonial-card active">
-                              <div class="glass-card">
-                                  <div class="testimonial-header">
-                                      <img src="https://images.unsplash.com/photo-1556940211-ea1d97e04458?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fGNoZWZ8ZW58MHx8MHx8fDA%3D" alt="Sarah Johnson" class="testimonial-avatar">
-                                      <div class="testimonial-info">
-                                          <div class="stars">★★★★★</div>
-                                          <h3>Sharth Mohan</h3>
-                                          <p>Hotel Chef</p>
-                                      </div>
-                                  </div>
-                                  <blockquote>
-                                      "Working with Sky Byte transformed our online presence. The web design they delivered 
-                                      increased our user engagement by 45% and reduced our bounce rate significantly."
-                                  </blockquote>
-                                  
-                              </div>
-                          </div>
-
-                          <div class="testimonial-card">
-                              <div class="glass-card">
-                                  <div class="testimonial-header">
-                                      <img src="https://plus.unsplash.com/premium_photo-1682888442432-a1bc427c0d91?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8dGVhY2hlcnxlbnwwfHwwfHx8MA%3D%3D" alt="Michael Chen" class="testimonial-avatar">
-                                      <div class="testimonial-info">
-                                          <div class="stars">★★★★★</div>
-                                          <h3>Vishnu </h3>
-                                          <p>Teacher</p>
-                                      </div>
-                                  </div>
-                                  <blockquote>
-                                      "The team at Sky Byte understood our vision perfectly. They created an intuitive 
-                                      website that our customers love, and we've seen a 60% improvement in our conversion rates."
-                                  </blockquote>
-                                  
-                              </div>
-                          </div>
-
-                          
-                      </div>
-                  </div>
-
-                  <!-- Navigation -->
-                  <div class="testimonials-nav">
-                      <button class="nav-btn prev-btn" id="prevBtn" aria-label="Previous testimonial">‹</button>
-                      <div class="dots-container" id="dotsContainer">
-                          <button class="dot active" data-slide="0" aria-label="Go to testimonial 1"></button>
-                          <button class="dot" data-slide="1" aria-label="Go to testimonial 2"></button>
-                      </div>
-                      <button class="nav-btn next-btn" id="nextBtn" aria-label="Next testimonial">›</button>
-                  </div>
-              </div>
-          </div>
-      </section>
-
-      <!-- Portfolio Section -->
-      <section id="portfolio" class="portfolio-section">
-          <div class="container">
-              <h2 class="section-title">How It Works</h2>
-              
-              <!-- Desktop Sliding Cards -->
-              <div class="portfolio-sliding-container">
-                  <div class="portfolio-sliding-track" id="portfolioTrack">
-                      <!-- First set -->
-                      <div class="portfolio-card floating-even">
-                          <div class="card-content">
-                              <div class="card-image">
-                                  <img src="https://images.unsplash.com/photo-1656264142377-22ae3fefdbc3?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8RGlzY292ZXIlMjAlMjYlMjBBbGlnbiUyMHdlYnNpdGV8ZW58MHx8MHx8fDA%3D" alt="Discovery & Planning">
-                                  <div class="card-image-overlay"></div>
-                              </div>
-                              <div class="card-icon">🔍</div>
-                              <h3>Discover</h3>
-                              <p>Understand your goals, audience, and brand identity.</p>
-                          </div>
-                      </div>
-
-                      <div class="portfolio-card floating-odd">
-                          <div class="card-content">
-                              <div class="card-image">
-                                  <img src="https://plus.unsplash.com/premium_photo-1705010663586-222ee7c5cfa8?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8UGxhbiUyMHdlbnNpdGV8ZW58MHx8MHx8fDA%3D" alt="Design & Development">
-                                  <div class="card-image-overlay"></div>
-                              </div>
-                              <div class="card-icon">🎨</div>
-                              <h3>Plan the Structure</h3>
-                              <p>Create a sitemap and structure for smooth navigation.</p>
-                          </div>
-                      </div>
-
-                      <div class="portfolio-card floating-even">
-                          <div class="card-content">
-                              <div class="card-image">
-                                  <img src="https://images.unsplash.com/photo-1602576666092-bf6447a729fc?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8dWl8ZW58MHx8MHx8fDA%3D" alt="Launch & Optimize">
-                                  <div class="card-image-overlay"></div>
-                              </div>
-                              <div class="card-icon">🚀</div>
-                              <h3>Design</h3>
-                              <p>Craft visually appealing and user-friendly layouts.</p>
-                          </div>
-                      </div>
-
-                      
-
-                      <!-- Third set for extra smoothness -->
-                      <div class="portfolio-card floating-even">
-                          <div class="card-content">
-                              <div class="card-image">
-                                  <img src="https://images.unsplash.com/photo-1536148935331-408321065b18?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fGNvZGluZ3xlbnwwfHwwfHx8MA%3D%3D" alt="Discovery & Planning">
-                                  <div class="card-image-overlay"></div>
-                              </div>
-                              <div class="card-icon">🔍</div>
-                              <h3>Build</h3>
-                              <p>Develop a responsive, fast, and SEO-optimized site.</p>
-                          </div>
-                      </div>
-
-                      <div class="portfolio-card floating-odd">
-                          <div class="card-content">
-                              <div class="card-image">
-                                  <img src="https://images.unsplash.com/photo-1457364887197-9150188c107b?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8TGF1bmNofGVufDB8fDB8fHww" alt="Design & Development">
-                                  <div class="card-image-overlay"></div>
-                              </div>
-                              <div class="card-icon">🎨</div>
-                              <h3>Test</h3>
-                              <p>Check performance, accessibility, and device compatibility.</p>
-                          </div>
-                      </div>
-
-    
-                  </div>
-              </div>
-
-              <!-- Mobile Static Grid -->
-              <div class="portfolio-mobile">
-                  <div class="portfolio-card floating-even">
-                      <div class="card-content">
-                          <div class="card-image">
-                              <img src="https://images.unsplash.com/photo-1656264142377-22ae3fefdbc3?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8RGlzY292ZXIlMjAlMjYlMjBBbGlnbiUyMHdlYnNpdGV8ZW58MHx8MHx8fDA%3D" alt="Discovery & Planning">
-                              <div class="card-image-overlay"></div>
-                          </div>
-                          <div class="card-icon">🔍</div>
-                          <h3>Discover</h3>
-                          <p>We learn about your goals, audience, and style.</p>
-                      </div>
-                  </div>
-
-                  <div class="portfolio-card floating-odd">
-                      <div class="card-content">
-                          <div class="card-image">
-                              <img src="https://images.unsplash.com/photo-1602576666092-bf6447a729fc?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8dWl8ZW58MHx8MHx8fDA%3D" alt="Design & Development">
-                              <div class="card-image-overlay"></div>
-                          </div>
-                          <div class="card-icon">🎨</div>
-                          <h3>Design</h3>
-                          <p>Create the look and feel with a user-friendly layout.</p>
-                      </div>
-                  </div>
-
-                  <div class="portfolio-card floating-even">
-                      <div class="card-content">
-                          <div class="card-image">
-                              <img src="https://images.unsplash.com/photo-1536148935331-408321065b18?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fGNvZGluZ3xlbnwwfHwwfHx8MA%3D%3D" alt="Launch & Optimize">
-                              <div class="card-image-overlay"></div>
-                          </div>
-                          <div class="card-icon">🚀</div>
-                          <h3>Build</h3>
-                          <p>Develop a fast, responsive, and SEO-friendly site.</p>
-                      </div>
-                  </div>
-              </div>
-          </div>
-      </section>
-
-      <!-- Features Section -->
-      <section id="features" class="features-section">
-          <div class="container">
-              <h2 class="section-title">Why Choose Sky Byte</h2>
-              
-              <div class="features-grid">
-                  <div class="feature-card">
-                      <div class="feature-icon">📱</div>
-                      <h3>Responsive Design</h3>
-                      <p>Beautiful websites that work perfectly across all devices and screen sizes.</p>
-                  </div>
-
-                  <div class="feature-card">
-                      <div class="feature-icon">🔍</div>
-                      <h3>SEO Optimized</h3>
-                      <p>Built with search engine optimization best practices to help you rank higher.</p>
-                  </div>
-
-                  <div class="feature-card">
-                      <div class="feature-icon">🎨</div>
-                      <h3>Modern Aesthetics</h3>
-                      <p>Stunning web designs that captivate visitors and reflect your brand's personality.</p>
-                  </div>
-
-                  <div class="feature-card">
-                      <div class="feature-icon">👥</div>
-                      <h3>User-Focused</h3>
-                      <p>Every design decision is made with your visitors' needs and goals in mind.</p>
-                  </div>
-              </div>
-          </div>
-      </section>
-
-      <!-- Mission Section -->
-      <section id="mission" class="mission-section">
-          <div class="container">
-              <div class="mission-content">
-                  <h2 class="section-title">Our Mission</h2>
-                  <p class="mission-text">
-                      We believe that exceptional web design has the power to transform businesses and create 
-                      meaningful connections between brands and their customers.
-                  </p>
-                  <p class="mission-description">
-                      Our mission is to democratize world-class web design by making it accessible to businesses 
-                      of all sizes. We're passionate about helping entrepreneurs and established companies bring 
-                      their ideas to life through thoughtful, user-centered web design that drives real business results.
-                  </p>
-              </div>
-          </div>
-      </section>
-
-      <!-- Pricing Section -->
-      <section id="pricing" class="pricing-section">
-          <div class="container">
-              <h2 class="section-title">Choose Your Plan</h2>
-              
-              <div class="pricing-grid">
-                  <div class="pricing-card">
-                      <h3>Starter</h3>
-                      <div class="price">
-                          <span class="amount">₹6,999</span>
-                          <span class="period">/project</span>
-                      </div>
-                      <p class="plan-description">Perfect for small businesses getting started online</p>
-                      <ul class="features-list">
-                          <li>✓ 5-page website</li>
-                          <li>✓ Responsive design</li>
-                          <li>✓ Basic SEO setup</li>
-                          <li>✓ Email support</li>
-                          <li>✓ Standard delivery (10 days)</li>
-                      </ul>
-                      
-                  </div>
-
-                  <div class="pricing-card recommended">
-                      <div class="recommended-badge">Recommended</div>
-                      <h3>Professional</h3>
-                      <div class="price">
-                          <span class="amount">₹8,999</span>
-                          <span class="period">/project</span>
-                      </div>
-                      <p class="plan-description">Ideal for growing businesses ready to scale online</p>
-                      <ul class="features-list">
-                          <li>✓ Complete website design</li>
-                          <li>✓ Custom functionality</li>
-                          <li>✓ Advanced SEO optimization</li>
-                          <li>✓ Priority support</li>
-                          <li>✓ Fast delivery (7 days)</li>
-                          <li>✓ Unlimited revisions</li>
-                          <li>✓ Source files included</li>
-                      </ul>
-                      
-                  </div>
-
-                  <div class="pricing-card">
-                      <h3>Enterprise</h3>
-                      <div class="price">
-                          <span class="amount">Custom</span>
-                          <span class="period"></span>
-                      </div>
-                      <p class="plan-description">Tailored solutions for established businesses</p>
-                      <ul class="features-list">
-                          <li>✓ Everything in Professional</li>
-                          <li>✓ Dedicated design team</li>
-                          <li>✓ E-commerce integration</li>
-                          <li>✓ Advanced analytics setup</li>
-                          <li>✓ 24/7 priority support</li>
-                          <li>✓ Ongoing maintenance</li>
-                          <li>✓ Training & workshops</li>
-                      </ul>
-                      
-                  </div>
-              </div>
-          </div>
-      </section>
-
-      <!-- Contact Section -->
-      <section id="contact" class="contact-section">
-  <div class="container">
-    <div class="contact-content">
-      <h2 class="section-title">Ready to Get Started?</h2>
-      <p class="contact-subtitle">
-        Let's discuss your project and see how we can help bring your vision to life.
-      </p>
-
-      <div class="contact-links">
-        <a href="https://www.linkedin.com/in/sky-byte-4210722b8/" class="contact-card">
-          <div class="contact-icon"><i class="fab fa-linkedin-in" aria-hidden="true"></i></div>
-          <span>LinkedIn</span>
-        </a>
-        <a href="mailto:hello@skybyte.design" class="contact-card">
-          <div class="contact-icon"><i class="fas fa-envelope" aria-hidden="true"></i></div>
-          <span>Email</span>
-        </a>
-        <a href="https://www.instagram.com/sky_byte_/profilecard/?igsh=emQ5bnBucTMwYjR2" class="contact-card">
-          <div class="contact-icon"><i class="fab fa-instagram" aria-hidden="true"></i></div>
-          <span>Instagram</span>
-        </a>
-      </div>
+    <!-- Loading Screen -->
+    <div id="loading-screen" class="loading-screen">
+        <div class="loading-content">
+            <div class="loading-logo">
+                <span class="logo-text">Sky Byte</span>
+            </div>
+            <div class="loading-bar">
+                <div class="loading-progress"></div>
+            </div>
+            <p class="loading-text">Crafting Digital Experiences...</p>
+        </div>
     </div>
-  </div>
-</section>
 
-  </main>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <span class="logo-text">Sky Byte</span>
+            </div>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="/" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#services" class="nav-link">Services</a></li>
+                <li><a href="#portfolio" class="nav-link">Portfolio</a></li>
+                <li><a href="#pricing" class="nav-link">Pricing</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
 
-  <!-- Footer -->
-  <footer class="footer">
-      <div class="container">
-          <div class="footer-content">
-              <div class="footer-brand">
-                  <a href="index.html" class="footer-logo">Sky Byte</a>
-                  <p class="footer-description">
-                      Elevating digital experiences through exceptional web design for 
-                      forward-thinking businesses and startups.
-                  </p>
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-background">
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+        </div>
+        <div class="hero-content">
+            <div class="floating-elements">
+                <div class="floating-card card-1">
+                    <div class="card-content">
+                        <div class="card-icon">🎨</div>
+                        <span>Design</span>
+                    </div>
+                </div>
+                <div class="floating-card card-2">
+                    <div class="card-content">
+                        <div class="card-icon">⚡</div>
+                        <span>Innovation</span>
+                    </div>
+                </div>
+                <div class="floating-card card-3">
+                    <div class="card-content">
+                        <div class="card-icon">🚀</div>
+                        <span>Growth</span>
+                    </div>
+                </div>
+            </div>
+            <h1 class="hero-title">
+                <span class="title-line">Designing Experiences,</span>
+                <span class="title-line gradient-text">Not Just Interfaces</span>
+            </h1>
+            <p class="hero-subtitle">Crafting digital experiences that captivate, engage, and convert through innovative UI/UX design</p>
+            <div class="hero-buttons">
+                <a href="#portfolio" class="btn btn-primary">
+                    <span>View Work</span>
+                    <div class="btn-glow"></div>
+                </a>
+                <a href="#contact" class="btn btn-secondary">
+                    <span>Let's Talk</span>
+                    <div class="btn-glow"></div>
+                </a>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="scroll-arrow"></div>
+            <span class="scroll-text">Scroll to explore</span>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">About Me</h2>
+                <p class="section-subtitle">Passionate about creating meaningful digital experiences</p>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <div class="about-story">
+                        <h3>My Design Philosophy</h3>
+                        <p>I'm a passionate UI/UX designer dedicated to crafting intuitive, user-centered digital experiences. With a strong foundation in design principles and user research, I bridge the gap between aesthetics and functionality. I specialize in creating clean, accessible, and engaging interfaces that not only look good but also solve real problems. Whether it's designing wireframes, prototyping in Figma, or collaborating with developers, I thrive on turning ideas into seamless user journeys</p>
+                    </div>
+                    <div class="skills-grid">
+                        <div class="skill-item">
+                            <div class="skill-icon">🎨</div>
+                            <div class="skill-info">
+                                <span class="skill-name">Visual Design</span>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-progress="95"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon">🧠</div>
+                            <div class="skill-info">
+                                <span class="skill-name">User Research</span>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-progress="90"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon">⚡</div>
+                            <div class="skill-info">
+                                <span class="skill-name">Prototyping</span>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-progress="88"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon">📱</div>
+                            <div class="skill-info">
+                                <span class="skill-name">Mobile Design</span>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-progress="92"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-visual">
+                    <div class="avatar-container">
+                        <div class="avatar-3d">
+                            <div class="avatar-inner">
+                                <span class="avatar-text">AC</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="experience-timeline">
+                        <div class="timeline-item" data-year="2024">
+                            <div class="timeline-dot"></div>
+                            <div class="timeline-content">
+                                
+                                <div class="timeline-title">UI UX Designer</div>
+                                
+                            </div>
+                        </div>
+                        <div class="timeline-item" data-year="2022">
+                            <div class="timeline-dot"></div>
+                            <div class="timeline-content">
+                                
+                                <div class="timeline-title">Creative Developer</div>
+                                
+                            </div>
+                        </div>
+                        <div class="timeline-item" data-year="2020">
+                            <div class="timeline-dot"></div>
+                            <div class="timeline-content">
+                                
+                                <div class="timeline-title">Ethical Hacker</div>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Services</h2>
+                <p class="section-subtitle">Comprehensive design solutions for your digital needs</p>
+            </div>
+            <div class="services-grid">
+                
+                <div class="service-card" data-tilt>
+                    <div class="service-icon">📱</div>
+                    <h3>App UI/UX</h3>
+                    <p>Mobile applications designed for intuitive user experiences and engagement</p>
+                    <ul class="service-features">
+                        <li>User Journey Mapping</li>
+                        <li>Wireframing</li>
+                        <li>Interactive Prototypes</li>
+                        <li>Usability Testing</li>
+                    </ul>
+                    <div class="service-overlay"></div>
+                </div>
+               
+                <div class="service-card" data-tilt>
+                    <div class="service-icon">⚡</div>
+                    <h3>Website Design</h3>
+                    <p>Crafting clean, modern, and responsive websites with a focus on user experience, performance, and visual appeal. Every design is tailored to meet user needs and business goals.</p>
+                    <ul class="service-features">
+                        <li>Responsive Layouts </li>
+                        <li>User-Centered Design</li>
+                        <li>Custom Styling</li>
+                        <li>Performance Optimization</li>
+                    </ul>
+                    <div class="service-overlay"></div>
+                </div>
+
+                <div class="service-card" data-tilt>
+                    <div class="service-icon">🌐</div>
+                    <h3>Ethical Hacking</h3>
+                    <p>Secure your digital assets with professional ethical hacking services. I simulate real-world attacks to uncover vulnerabilities and help you build stronger defenses.</p>
+                    <ul class="service-features">
+                        <li>Vulnerability Assessment</li>
+                        <li>Penetration Testing</li>
+                        <li>Network & Web App Security</li>
+                        <li>Detailed Reporting</li>
+                    </ul>
+                    <div class="service-overlay"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Portfolio</h2>
+                <p class="section-subtitle">Featured projects and case studies</p>
+            </div>
+            <div class="portfolio-filters">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="web">Web Design</button>
+                <button class="filter-btn" data-filter="mobile">Mobile App</button>
+                <button class="filter-btn" data-filter="branding">Ethical Hacking</button>
+                <button class="filter-btn" data-filter="product">product photography</button>
+            </div>
+            <div class="portfolio-grid" id="portfolio-grid">
+                <div class="portfolio-item" data-category="web">
+                    <div class="portfolio-image">
+                      <div class="project-preview web-project">
+                        <img src="https://drive.google.com/thumbnail?id=1yUVLnejvWjsirfIRHlkLAzSX-5XekQyF&sz=s800" alt="Portfolio Website Preview" />
+                        <div class="project-overlay">
+                          <button class="view-project-btn">View Project</button>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="portfolio-content">
+                      <h3>Portfolio Website</h3>
+                      <p>Designed a clean, responsive website with user-friendly navigation and modern visuals, ensuring a seamless experience across all devices.</p>
+                      <div class="project-tags">
+                        <span class="tag">Portfolio</span>
+                        <span class="tag">Responsive</span>
+                        
+                      </div>
+                    </div>
+                  </div>
                   
-              </div>
+                <div class="portfolio-item" data-category="mobile">
+                    <div class="portfolio-image">
+                      <div class="project-preview mobile-project">
+                        <img src="https://drive.google.com/thumbnail?id=1UWoS_MPIMUc5WXGdUOzdF6qL6WBPIHl3&sz=s800" alt="Portfolio Website Preview" />
+                        <div class="project-overlay">
+                          <button class="view-project-btn">View Project</button>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="portfolio-content">
+                        <h3>food delivery app</h3>
+                        <p>A user-friendly food delivery app with simple navigation and clear visuals for a quick, easy ordering experience.
+                        </p>
+                        <div class="project-tags">
+                            <span class="tag">Mobile</span>
+                            <span class="tag"> UI/UX</span>
+                            <span class="tag">iOS/Android</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="branding">
+                    <div class="portfolio-image">
+                        <div class="project-preview branding-project">
+                            <img src="https://img.freepik.com/free-vector/www-concept-illustration_114360-2143.jpg?uid=R77771124&ga=GA1.1.1478943094.1748414564&semt=ais_hybrid&w=740" alt="Portfolio Website Preview" />
+                            <div class="project-overlay">
+                                <button class="view-project-btn">View Project</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="portfolio-content">
+                        <h3>SubDomainScout</h3>
+                        <p>A fast and efficient tool to discover subdomains of a given domain for reconnaissance and security analysis.</p>
+                        <div class="project-tags">
+                            <span class="tag">SubDomain</span>
+                            <span class="tag">finder</span>
+                            <span class="tag">Cybersecurity</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="product">
+                    <div class="portfolio-image">
+                        <div class="project-preview branding-project">
+                            <img src="https://drive.google.com/thumbnail?id=1r0LQNvHjfeqp-aZrasx_shT_fBbpQcXw&sz=s800" alt="Portfolio Website Preview" />
+                            <div class="project-overlay">
+                                <button class="view-project-btn">View Project</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="portfolio-content">
+                        <h3>product photography</h3>
+                        <p>High-quality, visually engaging product photography tailored to showcase your products in the best light—literally and creatively.</p>
+                        <div class="project-tags">
+                            <span class="tag">ProductPhotography</span>
+                            <span class="tag">CreativeProductShots</span>
+                            <span class="tag">BrandPhotography</span>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </section>
 
-              <div class="footer-links">
-                  <div class="footer-column">
-                      <h4>Quick Links</h4>
-                      <ul>
-                          <li><a href="index.html">Home</a></li>
-                          <li><a href="about.html">About</a></li>
-                          
-                          <li><a href="contact.html">Contact</a></li>
-                      </ul>
-                  </div>
+    <!-- Pricing Section -->
+    <section id="pricing" class="pricing">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Pricing Plans</h2>
+                <p class="section-subtitle">Choose the perfect plan for your project needs</p>
+            </div>
+            
+            <div class="pricing-grid">
+                <div class="pricing-card" data-tilt>
+                    <div class="pricing-header">
+                        <div class="pricing-icon">🌟</div>
+                        <h3>UI UX Designer</h3>
+                        <div class="price">
+                            <span class="currency">₹</span>
+                            <span class="amount monthly">2,999-8,999</span>
+                            
+                            <span class="period">/project</span>
+                        </div>
+                    </div>
+                    <ul class="pricing-features">
+                        <li><span class="feature-icon">✨</span>Website Responsive Design</li>
+                        <li><span class="feature-icon">📱</span> Mobile Responsive Design</li>
+                        <li><span class="feature-icon">📱</span> UI UX Designer</li>
+                        <li><span class="feature-icon">📞</span> Email Support</li>
+                        <li><span class="feature-icon">⏱️</span> 2 Week Delivery</li>
+                    </ul>
+                    
+                </div>
+                <div class="pricing-card featured" data-tilt>
+                    
+                    <div class="pricing-header">
+                        <div class="pricing-icon">🚀</div>
+                        <h3>Creative Developer</h3>
+                        <div class="price">
+                            <span class="currency">₹</span>
+                            <span class="amount monthly">4,999-7,999</span>
+                           
+                            <span class="period">/project</span>
+                        </div>
+                    </div>
+                    <ul class="pricing-features">
+                        <li><span class="feature-icon">✨</span> 10 Page Website Design</li>
+                        <li><span class="feature-icon">📱</span> Mobile + Tablet Responsive</li>
+                        <li><span class="feature-icon">🎯</span> Complete Branding Package</li>
+                        <li><span class="feature-icon">⚡</span> Interactive Prototypes</li>
+                        <li><span class="feature-icon">📞</span> Priority Support</li>
+                        <li><span class="feature-icon">⏱️</span> 3 Week Delivery</li>
+                    </ul>
+                    
+                </div>
+                <div class="pricing-card" data-tilt>
+                    <div class="pricing-header">
+                        <div class="pricing-icon">💎</div>
+                        <h3>Ethical Hacker</h3>
+                        <div class="price">
+                            <span class="currency">₹</span>
+                            <span class="amount monthly">8,999-12999</span>
+                            
+                            <span class="period">/project</span>
+                        </div>
+                    </div>
+                    <ul class="pricing-features">
+                        <li><span class="feature-icon">✨</span> Network Vulnerability Assessment</li>
+                        <li><span class="feature-icon">📱</span> Penetration Testing (Web, Mobile, Network)</li>
+                        <li><span class="feature-icon">🎯</span> Security Audits & Risk Analysis</li>
+                        <li><span class="feature-icon">⚡</span>  Ethical Exploitation & Reporting</li>
+                        <li><span class="feature-icon">🧪</span> Detailed Security Reports & Remediation Advice</li>
+                        
+                        <li><span class="feature-icon">⏱️</span>  Confidential & Timely Delivery</li>
+                    </ul>
+                    
+                </div>
 
-                  <div class="footer-column">
-                      <h4>Services</h4>
-                      <ul>
-                          <li>Web Design</li>
-                          <li>Responsive Design</li>
-                          <li>E-commerce Sites</li>
-                          <li>Website Optimization</li>
-                      </ul>
-                  </div>
-              </div>
-          </div>
+                <div class="pricing-card" data-tilt>
+                    <div class="pricing-header">
+                        <div class="pricing-icon">📷</div>
+                        <h3>product photography</h3>
+                        <div class="price">
+                            <span class="currency">₹</span>
+                            <span class="amount monthly">4,999-9999</span>
+                            
+                            <span class="period">/project</span>
+                        </div>
+                    </div>
+                    <ul class="pricing-features">
+                        <li><span class="feature-icon">✨</span> High-Resolution, Crisp Product Images</li>
+                        <li><span class="feature-icon">📱</span> AI </li>
+                        <li><span class="feature-icon">🎯</span> Basic Photo Editing & Retouching</li>
+                        
+                    </ul>
+                    
+                </div>
+            </div>
+        </div>
+    </section>
 
-          <div class="footer-bottom">
-              <p>&copy; 2025 Sky Byte. All rights reserved.</p>
-              <div class="footer-legal">
-                  <a href="#">Privacy Policy</a>
-                  <a href="#">Terms of Service</a>
-              </div>
-          </div>
-      </div>
-  </footer>
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="testimonials">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">What Clients Say</h2>
+                <p class="section-subtitle">Trusted by amazing companies worldwide</p>
+            </div>
+            <div class="testimonials-container">
+                <div class="testimonials-slider" id="testimonials-slider">
+                    <div class="testimonial-card active">
+                        <div class="testimonial-content">
+                            <div class="quote-icon">"</div>
+                            <p> “Absolutely loved the designs! The website looks clean, modern, and exactly what we envisioned. Timely delivery and great communication.”</p>
+                        </div>
+                        <div class="testimonial-author">
+                            <div class="author-avatar">
+                                <span>VP</span>
+                            </div>
+                            <div class="author-info">
+                                <h4>Vishnu Prasad K</h4>
+                                <span>Creative Developer</span>
+                                <div class="rating">
+                                    <span>⭐⭐⭐⭐⭐</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-card">
+                        <div class="testimonial-content">
+                            <div class="quote-icon">"</div>
+                            <p> “Professional, well-organized, and loved by students. A valuable asset to any school.”</p>
+                        </div>
+                        <div class="testimonial-author">
+                            <div class="author-avatar">
+                                <span>NK</span>
+                            </div>
+                            <div class="author-info">
+                                <h4>Nimisha k</h4>
+                                <span>Teacher</span>
+                                <div class="rating">
+                                    <span>⭐⭐⭐⭐⭐</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-card">
+                        <div class="testimonial-content">
+                            <div class="quote-icon">"</div>
+                            <p> “Professional, well-organized, and loved by students. A valuable asset to any school.”</p>
+                        </div>
+                        <div class="testimonial-author">
+                            <div class="author-avatar">
+                                <span>NK</span>
+                            </div>
+                            <div class="author-info">
+                                <h4>Nimisha k</h4>
+                                <span>Teacher</span>
+                                <div class="rating">
+                                    <span>⭐⭐⭐⭐⭐</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+                <div class="testimonial-nav">
+                    <button class="nav-dot active" data-slide="0"></button>
+                    <button class="nav-dot" data-slide="1"></button>
+                    <button class="nav-dot" data-slide="2"></button>
+                </div>
+            </div>
+        </div>
+    </section>
 
-  <script src="js/script.js"></script>
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Let's Build Something Amazing Together</h2>
+                <p class="section-subtitle">Ready to start your next project? Let's talk!</p>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <div class="contact-icon">📧</div>
+                        <div>
+                            <h4>Email</h4>
+                            <p>skybyte85@gmail.com</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">⏰</div>
+                        <div>
+                            <h4>Response Time</h4>
+                            <p>Within 24 hours</p>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <h3>Sky Byte</h3>
+                    <p>Designing the future, one interface at a time.</p>
+                    
+                </div>
+                <div class="footer-links">
+                    <div class="footer-section">
+                        <h4>Services</h4>
+                        <ul>
+                            <li><a href="#services">Web Design</a></li>
+                            <li><a href="#services">App UI/UX</a></li>
+                            <li><a href="#services">Ethical Hacking</a></li>
+                            <li><a href="#services">Product Photography</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-section">
+                        <h4>Company</h4>
+                        <ul>
+                            <li><a href="#about">About</a></li>
+                            <li><a href="#portfolio">Portfolio</a></li>
+                            <li><a href="#pricing">Pricing</a></li>
+                            <li><a href="#contact">Contact</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="footer-social">
+                    <h4>Connect</h4>
+                    <div class="social-links">
+                        <a href="https://www.linkedin.com/in/sky-byte-4210722b8/" class="social-link" data-platform="linkedin">
+                            <span class="social-icon">💼</span>
+                            <span>LinkedIn</span>
+                        </a>
+                        <a href="#" class="social-link" data-platform="dribbble">
+                            <span class="social-icon">🎨</span>
+                            <span>Instagram</span>
+                        </a>
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Sky Byte. All rights reserved. Made with ❤️ and lots of ☕</p>
+            </div>
+        </div>
+        <button class="scroll-to-top" id="scroll-to-top">
+            <span>↑</span>
+        </button>
+    </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
